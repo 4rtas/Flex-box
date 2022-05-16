@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+header {
+  display: flex;
+  background-color: rgb(10, 248, 2);
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+  padding: 0 1rem;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:first-of-type {
+  padding: 0;
+}
+
+.firstImg {
+  width: 15rem;
+  float: left;
+}
+
+main {
+  display: flex;
+  margin: 0 1rem;
+  text-align: justify;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.one {
+  width: 35%;
+  padding-right: 1rem;
+}
+
+.two {
+  width: 65%;
+}
+
+.btnReadmore {
+  color: black;
+  background-color: green;
+  padding: 1rem;
+  float: right;
+}
+
+.btnReadmore:hover {
+  background-color: rgb(43, 116, 43);
+  color: whitesmoke;
+}
+
+.list {
+  margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+  main {
+    display: block;
+  }
+  .one,
+  .two {
+    width: auto;
+    margin-bottom: 5rem;
+  }
+  .one {
+    margin-bottom: 6rem;
+    padding: unset;
+  }
+}
